@@ -1,5 +1,10 @@
 package edu.niu.cs.z1761257.astonmartin;
 
+/**
+ * Created by Pravin on 2/28/16.
+ * Assignment 2 - Using Intents and Widgets
+ */
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,8 +23,6 @@ public class Description extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description);
 
-
-     //   Toast.makeText(getApplicationContext(),"Title: "+titleTV,Toast.LENGTH_SHORT).show();
         //connecting to the screen
         titleTV = (TextView)findViewById(R.id.titleTextView);
         descriptionTV = (TextView)findViewById(R.id.decsriptionTextView);
@@ -34,8 +37,8 @@ public class Description extends AppCompatActivity {
 
     }//end of onCreate
 
-    //button function to goback to main page
 
+    //button function to goback to main page
     public void goBack(View view){
         Intent mainPage = new Intent(this, MainActivity.class);
         startActivity(mainPage);

@@ -2,12 +2,18 @@ package edu.niu.cs.z1761257.astonmartin;
 
 /**
  * Created by Pravin on 2/28/16.
+ * Assignment 2 - Using Intents and Widgets
  */
 public class Models {
 
+    //array of names of car models
     public static String names[] = {"Aston Martin - DBS Coupe", "Aston Martin - Rapid S", "Aston Martin - Virage", "Aston Martin - Vantage", "Aston Martin - Vanquish"};
 
+    //array of image resources
     public static int id[] = {R.drawable.dbs, R.drawable.rapides, R.drawable.virage, R.drawable.vantagegt, R.drawable.vanquish};
+
+    //array of description of car
+    //Information taken from www.caranddriver.com
 
     public static String description[] = {
             "\n" +
