@@ -40,8 +40,7 @@ public class Description extends AppCompatActivity {
 
     //button function to goback to main page
     public void goBack(View view){
-        Intent mainPage = new Intent(this, MainActivity.class);
-        startActivity(mainPage);
+        finish();
     }
 
 
